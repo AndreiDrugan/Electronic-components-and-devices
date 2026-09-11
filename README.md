@@ -18,24 +18,9 @@ Un asistent local inteligent bazat pe Python care combină recunoașterea vizual
 - **Pandas & NumPy** (Manipularea datelor tabulare)
 - **Pillow (PIL)** (Procesare imagini)
 
-Instalare și Rulare
-Clonează repository-ul:
-
-Bash
-git clone [https://github.com/username/project17.git](https://github.com/username/project17.git)
-cd project17
 Instalează dependențele:
 
-Bash
-pip install torch torchvision torchaudio scikit-learn pandas numpy pillow openai-whisper
-(Notă: Asigură-te că ai instalat și pachetul FFmpeg necesar pentru pipeline-ul audio Whisper).
+pip install torch torchvision torchaudio scikit-learn pandas numpy pillow
 
-Configurează .gitignore:
-Pentru a evita încărcarea setului mare de imagini în repository, adaugă folderul de imagini în .gitignore:
-
-Plaintext
-images/
-_.csv
-_.pth
 Rulează antrenarea:
 Deschide main.ipynb în Jupyter Notebook sau VS Code și rulează celulele secvențial pentru a pregăti dataset-ul, a configura transformările și a rula bucla de antrenare cu ReduceLROnPlateau.
